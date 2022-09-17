@@ -1,6 +1,6 @@
 .container {
     background-color: #ccc;
-    height: 200px;
+    height: 500px;
     display: flex;
     
     flex-direction: row;
@@ -14,7 +14,8 @@
     justify-content: flex-start;
     /*  flex-end | center | space-between | space-around */
 
-    
+    align-items: stretch;
+    /* flex-start | flex-end | center | baseline */
 }
 
 .item {
@@ -23,4 +24,9 @@
     padding: 20px;
     margin: 5px;
     width: 80px;
+}
+
+.article-01 {
+    padding-top: 40px;
+    background-color: red;
 }
