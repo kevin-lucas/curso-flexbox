@@ -15,7 +15,7 @@
     align-items: stretch;
     /* flex-start | flex-end | center | baseline */
 
-    align-content: flex-start;
+    align-content: stretch;
     /* flex-start |  flex-end | center | space-between | space-around */
 }
 
@@ -25,5 +25,4 @@
     padding: 20px;
     margin: 5px;
     width: 200px;
-    height: 50px;
 }
