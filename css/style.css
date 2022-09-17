@@ -6,8 +6,10 @@
     flex-direction: row;
     /* column | row-reverse | column-reverse */
 
-    flex-wrap: wrap;
+    flex-wrap: nowwrap;
     /* wrap | wrap-reverse */
+
+    flex-flow: row wrap;
 }
 
 .item {
