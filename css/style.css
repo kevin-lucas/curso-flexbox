@@ -5,6 +5,9 @@
     
     flex-direction: row;
     /* column | row-reverse | column-reverse */
+
+    flex-wrap: wrap;
+    /* wrap | wrap-reverse */
 }
 
 .item {
@@ -12,4 +15,5 @@
     color: #fff;
     padding: 20px;
     margin: 5px;
+    width: 40%;
 }
