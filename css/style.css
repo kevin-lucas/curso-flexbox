@@ -1,6 +1,10 @@
 .container {
     background-color: #ccc;
     height: 200px;
+    display: flex;
+    
+    flex-direction: row;
+    /* column | row-reverse | column-reverse */
 }
 
 .item {
