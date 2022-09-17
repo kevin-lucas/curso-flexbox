@@ -9,7 +9,12 @@
     flex-wrap: nowwrap;
     /* wrap | wrap-reverse */
 
-    flex-flow: row wrap;
+    flex-flow: row nowwrap;
+
+    justify-content: flex-start;
+    /*  flex-end | center | space-between | space-around */
+
+    
 }
 
 .item {
@@ -17,5 +22,5 @@
     color: #fff;
     padding: 20px;
     margin: 5px;
-    width: 40%;
+    width: 80px;
 }
