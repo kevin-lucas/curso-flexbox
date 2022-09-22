@@ -29,18 +29,13 @@
 }
 
 .article-01 {
-  order: 2;
 }
 
 .article-02 {
-  order: 4;
 }
 
 .article-03 {
-  order: 1;
-  align-self: center; /* flex-start | flex-end | baseline | stretch */
 }
 
 .article-04 {
-  order: 3;
 }
