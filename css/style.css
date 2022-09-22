@@ -26,9 +26,12 @@
   margin: 5px;
   width: 30px;
   height: 30px;
+
+  flex-grow: 1;
 }
 
 .article-01 {
+    flex-grow: 2;
 }
 
 .article-02 {
